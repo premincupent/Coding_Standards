@@ -1,4 +1,6 @@
-# Laravel Cheat Sheet
+# [Gathered by cupent](https://www.cupent.com)
+
+# Laravel Quick Reference
 
 ## Artisan Commands
 
