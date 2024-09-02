@@ -1,7 +1,6 @@
 # [Gathered by cupent](https://www.cupent.com)
 Create Date: 02-09-2024
 Last Update Date: 02-09-2024
-
 # Laravel Coding Best Practices and Style Guide
 
 ## General Coding Practices
@@ -116,3 +115,23 @@ Last Update Date: 02-09-2024
 | **Document Public APIs**                | Document public APIs using tools like Swagger or Postman. |
 | **Maintain Code Comments**              | Keep code comments up-to-date and relevant. Avoid redundant comments. |
 | **Write Clear README Files**            | Provide clear and comprehensive README files for project setup and usage. |
+
+## Tools and VSCode Plugins
+
+| Tool/Plugin                        | Description                                      |
+|------------------------------------|--------------------------------------------------|
+| **Laravel Debugbar**               | A package that provides debugging information for Laravel applications. |
+| **Laravel Telescope**              | An advanced debugging assistant that provides insights into your application's request lifecycle. |
+| **PHPStorm**                       | A powerful IDE with comprehensive Laravel support, including code assistance and debugging. |
+| **Laravel IDE Helper**             | Generates helper files to improve IDE code completion for Laravel projects. |
+| **Composer**                       | Dependency manager for PHP, used to install and manage Laravel packages. |
+| **PHPUnit**                        | Testing framework used for unit and feature testing in Laravel. |
+| **Xdebug**                         | A debugger for PHP that provides advanced debugging capabilities. |
+| **Prettier**                       | Code formatter to ensure consistent code style across your project. |
+| **ESLint**                         | Linter for JavaScript and TypeScript to enforce code quality standards. |
+| **Laravel Blade Snippets**         | VSCode extension that provides Blade syntax highlighting and snippets. |
+| **Laravel Artisan**                | VSCode extension that adds Artisan commands to the command palette for easy access. |
+| **PHP Intelephense**               | PHP language server that provides code completion, linting, and more for VSCode. |
+| **GitLens**                        | Git extension for VSCode that enhances Git capabilities and visualization. |
+| **Live Share**                     | VSCode extension for real-time collaborative coding sessions. |
+
