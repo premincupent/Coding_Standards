@@ -1,3 +1,7 @@
+# [Gathered by cupent](https://www.cupent.com)
+Create Date: 02-09-2024
+Last Update Date: 02-09-2024
+
 # Laravel Coding Best Practices and Style Guide
 
 ## General Coding Practices
@@ -11,6 +15,27 @@
 | **Use Type Hinting**                    | Use type hinting for method parameters and return types to ensure type safety. |
 | **Follow Single Responsibility Principle** | Each class or method should have a single responsibility or purpose. |
 | **Comment and Document Code**           | Use comments and PHPDoc to explain complex logic and document public methods. |
+
+## Splitting Functions and Reusability
+
+| Practice                                | Description                                      |
+|-----------------------------------------|--------------------------------------------------|
+| **Refactor Large Functions**            | Break large functions into smaller, more manageable functions. Each function should perform a single, well-defined task. |
+| **Create Reusable Functions**            | Extract commonly used logic into reusable functions or methods to avoid code duplication. |
+| **Use Helper Classes**                  | Utilize helper classes for utility functions that are used across different parts of the application. |
+| **Leverage Traits**                     | Use traits to share methods across multiple classes without inheritance. |
+| **Apply the DRY Principle**              | Follow the "Don't Repeat Yourself" principle to reduce redundancy in code. Avoid duplicating code across different methods or classes. |
+
+## Managing Large Classes and Functions
+
+| Practice                                | Description                                      |
+|-----------------------------------------|--------------------------------------------------|
+| **Split Large Classes**                 | Break down large classes into smaller, focused classes that handle specific responsibilities. |
+| **Use Service Classes**                 | Organize business logic into service classes to keep controllers and models lean. |
+| **Apply the Law of Demeter**            | Ensure that a class only interacts with its immediate dependencies, not with dependencies of dependencies. |
+| **Encapsulate Code**                    | Encapsulate related functionalities into separate classes or methods to improve maintainability and readability. |
+| **Follow SOLID Principles**             | Adhere to SOLID principles (Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion) to create scalable and maintainable code. |
+| **Use Interfaces and Abstract Classes** | Define interfaces or abstract classes to outline the structure of implementations, which promotes flexibility and decoupling. |
 
 ## Naming Conventions
 
