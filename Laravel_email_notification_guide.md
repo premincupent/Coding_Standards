@@ -491,6 +491,12 @@ php artisan queue:work
 
 ```
 
+```bash
+php artisan queue:listen
+
+```
+This command will continuously listen for jobs and process them as soon as they're pushed to the queue. 
+
 You can specify the queue connection and queue name if needed:
 
 ```bash
