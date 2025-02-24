@@ -26,7 +26,8 @@
 - GitLab  
 - Bitbucket  
 - GitKraken  
-- Sourcetree  
+- Sourcetree
+- TortoiseGit
 
 ---
 
